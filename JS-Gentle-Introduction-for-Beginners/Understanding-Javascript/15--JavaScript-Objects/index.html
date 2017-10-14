@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+
+	<h1 id="title">JS Objects</h1>
+
+	<script>
+
+		// var phone = new Object();
+
+		// phone["manufacturer"] = "Apple";
+		// phone["model"] = "iPhone";
+		// phone["color"] = "silver";
+
+		// console.log(phone["model"]);
+
+
+
+	// dot notation
+
+	var phone = new Object();
+	
+	phone.model = "iPhone"
+	phone.manufacturer = "Apple"
+	phone.color = "Silver"
+
+	console.log(phone);
+
+	var phone = {
+		manufacturer: "Apple",
+		model: "iPhone",
+		color: "Silver",
+		features: {
+			bluetooth: true,
+			wifi: true,
+			gps: false
+		}
+
+
+	};
+
+	function yourPhone() {
+		alert("manufacturer: " + phone.manufacturer);
+		alert("model: " + phone.model);		
+		alert("color: " + phone.color);		
+	}
+
+	yourPhone();
+
+
+
+
+	</script>
+
+
+</body>
+</html>
